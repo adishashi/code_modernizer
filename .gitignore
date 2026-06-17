@@ -1,0 +1,105 @@
+# ==========================================
+# Python
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Pytest
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# ==========================================
+# Environment Variables
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# VS Code
+# ==========================================
+
+.vscode/
+
+# ==========================================
+# Build Artifacts
+# ==========================================
+
+build/
+dist/
+*.dll
+*.so
+*.dylib
+
+# ==========================================
+# Tree-sitter Generated Files
+# ==========================================
+
+tree-sitter-pascal/build/
+
+# Generated parser binaries
+pascal.dll
+pascal.so
+pascal.dylib
+
+# ==========================================
+# Indexer Outputs
+# ==========================================
+
+output/
+
+# Large generated AST dumps
+ast/
+asts/
+
+# Generated JSON indexes
+repository_index.json
+dependency_graph.json
+class_hierarchy.json
+method_index.json
+call_graph.json
+
+# ==========================================
+# Logs
+# ==========================================
+
+*.log
+
+# ==========================================
+# OS Files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# LangGraph
+# ==========================================
+
+.langgraph_api/
+
+# ==========================================
+# Temporary Files
+# ==========================================
+
+*.tmp
+*.temp
