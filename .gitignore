@@ -34,6 +34,15 @@ htmlcov/
 !.env.example
 
 # ==========================================
+# Internal Planning / Roadmaps
+# ==========================================
+
+ROADMAP*.md
+PROJECT_STATE*.md
+CODEX_CONTEXT*.md
+README_INTERNAL.md
+
+# ==========================================
 # VS Code
 # ==========================================
 
